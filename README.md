@@ -1,127 +1,188 @@
 <p align="center">
-  <img src="banner.png" alt="IBM HR Data Profiling Banner" width="100%">
+  <img src="banner.png" alt="IBM HR Data Preprocessing Banner">
 </p>
 
-# 📊 IBM HR Employee Attrition - Data Profiling
+<h1 align="center">🚀 IBM HR Employee Attrition Data Preprocessing</h1>
 
-## 📌 Project Overview
+<p align="center">
+A complete end-to-end <b>Data Engineering</b> preprocessing pipeline built using the IBM HR Employee Attrition dataset.
+</p>
 
-This project demonstrates the **Data Profiling** process using the IBM HR Employee Attrition dataset. The objective is to assess data quality, understand the dataset structure, and document each feature before proceeding to advanced analytics or machine learning.
+<p align="center">
 
----
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
 
-## 🎯 Objectives
-
-- Explore the dataset
-- Identify missing values
-- Detect duplicate records
-- Perform data profiling
-- Create a Data Dictionary
-- Document project findings
+</p>
 
 ---
 
-## 🛠️ Technologies Used
+# 📖 Project Overview
 
-- Python
-- Pandas
-- Google Colab
-- GitHub
+This project demonstrates an end-to-end data preprocessing workflow performed on the IBM HR Employee Attrition dataset.
 
----
-
-## 📂 Dataset
-
-**Dataset:** IBM HR Analytics Employee Attrition Dataset
-
-- **Records:** 1,470
-- **Features:** 35
+The objective is to transform raw HR data into a clean, structured, feature-rich, and analysis-ready dataset using standard Data Engineering preprocessing techniques.
 
 ---
 
-## 📊 Dataset Statistics
+# 🎯 Objectives
 
-| Metric | Value |
-|---------|------:|
-| Total Records | 1,470 |
-| Total Features | 35 |
-| Missing Values | 0 |
-| Duplicate Records | 0 |
-| Constant Columns Removed | 3 |
+✔ Explore the dataset
+
+✔ Perform Data Profiling
+
+✔ Identify Missing Values
+
+✔ Detect Duplicate Records
+
+✔ Analyze Numerical Features
+
+✔ Detect Outliers
+
+✔ Create New Features
+
+✔ Normalize Numerical Features
+
+✔ Perform Feature Selection
+
+✔ Export Final Processed Dataset
 
 ---
 
-## 🔄 Project Workflow
+# 🗂 Dataset Information
+
+**Dataset:** IBM HR Analytics Employee Attrition
+
+**Records:** 1470
+
+**Original Features:** 35
+
+**Processed Features:** 33
+
+---
+
+# ⚙️ Project Workflow
+
+## 🔹 Data Exploration
+
+- Dataset Shape
+- Data Types
+- Basic Statistics
+
+---
+
+## 🔹 Data Profiling
+
+- Missing Values
+- Duplicate Detection
+- Constant Columns
+- Categorical Analysis
+- Numerical Analysis
+
+---
+
+## 🔹 Outlier Detection
+
+- Boxplots
+- Distribution Analysis
+- IQR-based Identification
+
+---
+
+## 🔹 Feature Engineering
+
+Created new features including:
+
+- ⭐ TotalSatisfactionScore
+- ⭐ YearsWorkedOutsideCompany
+
+---
+
+## 🔹 Data Normalization
+
+Applied:
+
+✅ Min-Max Scaling
+
+to numerical features.
+
+---
+
+## 🔹 Feature Selection
+
+Removed:
+
+- EmployeeNumber
+
+because it is a unique identifier and provides no analytical value.
+
+---
+
+# 📊 Technologies Used
+
+🐍 Python
+
+🐼 Pandas
+
+📊 Matplotlib
+
+🤖 Scikit-Learn
+
+📒 Google Colab
+
+🌐 GitHub
+
+---
+
+# 📁 Repository Structure
 
 ```
-Dataset
-    │
-    ▼
-Dataset Exploration
-    │
-    ▼
-Missing Value Analysis
-    │
-    ▼
-Duplicate Detection
-    │
-    ▼
-Data Profiling
-    │
-    ▼
-Data Dictionary
-    │
-    ▼
-Project Conclusion
+IBM-HR-Data-Preprocessing/
+
+│── IBM_HR_Preprocessing.ipynb
+│── IBM_HR_Processed_Data.csv
+│── WA_Fn-UseC_-HR-Employee-Attrition.csv
+│── banner.png
+│── README.md
 ```
 
 ---
 
-## 💡 Skills Demonstrated
+# 📈 Final Outcome
 
-- Data Exploration
+✔ Clean Dataset
+
+✔ Feature Engineered Dataset
+
+✔ Normalized Dataset
+
+✔ Selected Features
+
+✔ Ready for Dashboard Development
+
+✔ Ready for Machine Learning
+
+---
+
+# 🌟 Key Skills Demonstrated
+
 - Data Profiling
-- Data Quality Assessment
-- Data Documentation
+- Data Cleaning
+- Feature Engineering
+- Feature Selection
+- Data Normalization
+- Exploratory Data Analysis
 - Python Programming
 - Pandas
-- Google Colab
-- GitHub
+- Scikit-Learn
+- Data Engineering Workflow
 
 ---
 
-## 📁 Repository Structure
+# ⭐ If you like this project
 
-```
-IBM-HR-Data-Profiling
-│
-├── IBM_HR_Data_Profiling.ipynb
-├── WA_Fn-UseC_-HR-Employee-Attrition.csv
-├── banner.png
-└── README.md
-```
+Give this repository a ⭐ and feel free to fork it!
 
 ---
-
-## 🚀 Future Improvements
-
-- Perform Exploratory Data Analysis (EDA)
-- Build interactive dashboards
-- Develop ETL pipelines
-- Apply Machine Learning models
-
----
-
-## ✅ Project Outcome
-
-The dataset was successfully explored, validated, profiled, and documented. The completed work provides a clean and well-understood dataset that is ready for future data analysis, dashboard development, or machine learning projects.
-
----
-
-## 👨‍💻 Author
-
-**Sharon Shine**
-
-*M.Sc. Artificial Intelligence & Data Science*
-
-Aspiring Data Engineer
